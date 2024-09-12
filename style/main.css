@@ -19,7 +19,7 @@ header {
   width: 100%;
   height: 80px;
   background-color: rgb(255, 255, 255);
-  position: fixed;
+  position: sticky;
   top: 0;
 }
 header .head_nav {
@@ -95,4 +95,77 @@ header .head_btn button:nth-child(2):hover {
   background-color: transparent;
   border: 1px solid rgb(188, 208, 229);
   color: var(--textcolor);
+}
+
+.section-1 {
+  width: 100%;
+  height: 100%;
+  padding: 25px 0px;
+}
+.section-1 .work_descriptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-1 .work_descriptions .work_descriptions_left h1 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: var(--textcolor);
+  width: 518px;
+  padding-bottom: 18px;
+}
+.section-1 .work_descriptions .work_descriptions_left p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: var(--textcolor);
+  width: 458px;
+  padding-bottom: 45px;
+}
+.section-1 .work_descriptions .work_descriptions_left_btn {
+  display: flex;
+}
+.section-1 .work_descriptions .work_descriptions_left_btn button:first-child {
+  width: 175px;
+  height: 53px;
+  background-color: var(--btnbgcolor);
+  border: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.section-1 .work_descriptions .work_descriptions_left_btn button:first-child:hover {
+  background-color: transparent;
+  border: 1px solid rgb(2, 137, 122);
+  color: rgb(2, 137, 122);
+  transition: all 0.3s linear;
+}
+.section-1 .work_descriptions .work_descriptions_left_btn button:nth-child(2) {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 30px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: rgb(2, 137, 122);
+}
+.section-1 .work_descriptions .work_descriptions_left_btn button:nth-child(2):hover {
+  border: 1px solid rgb(2, 137, 122);
+  transition: all 0.3s linear;
 }/*# sourceMappingURL=main.css.map */
