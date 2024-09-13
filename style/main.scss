@@ -751,3 +751,47 @@ color: var(--titlecolor);
         }
     }
 }
+.section-10{
+    width: 968px;
+height: 370px;
+background-color: rgba(2, 137, 122, 1);
+border-radius: 32px;
+display: flex;
+margin-bottom: 50px;
+img{
+    padding-top: 10px;
+}
+.busines_product{
+    padding: 50px;
+    h1{
+        font-family: Poppins;
+font-size: 32px;
+font-weight: 600;
+line-height: 48.45px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+padding-bottom: 98px;
+    }
+    button{
+        width: 180px;
+height: 50px;
+padding: 13px 35px 7px 33px;
+background-color: rgba(255, 255, 255, 1);
+border-radius: 8px ;
+border: none;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: center;
+color: rgba(2, 137, 122, 1);
+cursor: pointer;
+    }
+    button:hover{
+        border: 1px solid rgba(255, 255, 255, 1);
+        background-color: rgba(2, 137, 122, 1);
+        color: rgba(255, 255, 255, 1);
+        transition: all 0.3s linear;
+    }
+}
+}

@@ -660,4 +660,49 @@ header .head_btn button:nth-child(2):hover {
   letter-spacing: 0.200000003px;
   text-align: left;
   color: var(--titlecolor);
+}
+
+.section-10 {
+  width: 968px;
+  height: 370px;
+  background-color: rgb(2, 137, 122);
+  border-radius: 32px;
+  display: flex;
+  margin-bottom: 50px;
+}
+.section-10 img {
+  padding-top: 10px;
+}
+.section-10 .busines_product {
+  padding: 50px;
+}
+.section-10 .busines_product h1 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48.45px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding-bottom: 98px;
+}
+.section-10 .busines_product button {
+  width: 180px;
+  height: 50px;
+  padding: 13px 35px 7px 33px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: none;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  color: rgb(2, 137, 122);
+  cursor: pointer;
+}
+.section-10 .busines_product button:hover {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(2, 137, 122);
+  color: rgb(255, 255, 255);
+  transition: all 0.3s linear;
 }/*# sourceMappingURL=main.css.map */
